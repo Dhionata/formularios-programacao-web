@@ -1,0 +1,41 @@
+fieldset {
+    background-color: #bbbbbb
+}
+
+#codName {
+    margin-left: 28px;
+}
+
+#codCidade {
+    margin-left: 19px;
+}
+
+.botaoesquerda {
+    background-color: #e1e1e1;
+    width: 340px;
+    float: left;
+    margin-left: 166px;
+    height: 30px;
+}
+
+.botaodireita {
+    background-color: #e1e1e1;
+    width: 375px;
+    margin-right: 151px;
+    float: right;
+    height: 30px;
+}
+
+legend {
+    border-left-style: solid;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+
+input {
+    width: 457px;
+}

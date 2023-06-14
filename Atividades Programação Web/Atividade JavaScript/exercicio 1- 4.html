@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Padrão HTML SEM JavaScript</title>
+    <script src="exercicio.js"></script>
+</head>
+
+<body>
+<form action="mailto:teste@gmail.com" method="post" enctype="text/plain" name="cadastro">
+    <p>
+        <p>Por favor, preencha os campos abaixo e depois clique no botão <strong>Enviar</strong>.</p>
+        <br>Caso necessite apagar os dados, dê um clique no botão <strong>Limpar</strong>.</p>
+        <p>Muito Obrigado!</p>
+    </p>
+    <br>
+    <div style="margin-bottom: 20px">
+        <label for="nome">Nome Completo:</label>
+        <br>
+        <input class="required" type="text" id="nome" name="nome" size="35">
+        <br>
+    </div>
+    <div style="margin-bottom: 20px">
+        <label for="email">Seu e-mail:</label>
+        <br>
+        <input class="required" type="text" id="email" name="email" size="35">
+        <br>
+    </div>
+    <label for="sexo">Sexo:</label>
+    <div id="sexo" style="margin-bottom: 20px">
+        <label for="feminino">Feminino</label>
+        <input class="required" type="radio" id="feminino" name="sexo" value="f">
+        <label for="masculino">Masculino</label>
+        <input class="required" type="radio" id="masculino" name="sexo" value="m">
+        <br>
+        <br>
+    </div>
+    <label for="estado-civil">Estado Civil:</label>
+    <div id="estado-civil" style="margin-bottom: 20px">
+        <label for="solteiro">Solteiro</label>
+        <input class="required" type="radio" id="solteiro" name="civil" value="s">
+        <br>
+        <label for="casado">Casado</label>
+        <input class="required" type="radio" id="casado" name="civil" value="c">
+        <br>
+        <label for="enrolado">Enrolado</label>
+        <input class="required" type="radio" id="enrolado" name="civil" value="e">
+        <br>
+    </div>
+    <label for="bens-possui">Bens que Possui:</label>
+    <div id="bens-possui" style="margin-bottom: 20px">
+        <label for="casa">Casa</label>
+        <input class="required" type="checkbox" id="casa" name="civil" value="c">
+        <br>
+        <label for="automovel">Automóvel</label>
+        <input class="required" type="checkbox" id="automovel" name="civil" value="a">
+        <br>
+        <label for="moto">Moto</label>
+        <input class="required" type="checkbox" id="moto" name="civil" value="m">
+        <br>
+    </div>
+    <label for="faixa-idade">Faixa de Idade:</label>
+    <br>
+    <div id="select-faixa-idade" style="margin-bottom: 20px">
+        <select name="faixa-idade" id="faixa-idade">
+            <option selected value="">Selecione...</option>
+            <option value="3a10">3 à 10 anos</option>
+            <option value="11a25">11 à 25 anos</option>
+            <option value="26a35">26 à 35 anos</option>
+            <option value="36a55">36 à 55 anos</option>
+            <option value="56a90">56 à 90 anos</option>
+        </select>
+    </div>
+    <label for="hobby">Hobby Preferido:</label>
+    <br>
+    <div id="select-hobby" style="margin-bottom: 20px">
+        <select name="hobby" id="hobby">
+                <option selected value="">Selecione...</option>
+                <option value="livros">Ler livro</option>
+                <option value="musica">Ouvir música</option>
+                <option value="cinema">Assistir filmes</option>
+                <option value="esporte">Praticar esportes</option>
+                <option value="games">Jogar games</option>
+        </select>
+    </div>
+    <br>
+    <label for="obs">Observações Gerais</label>
+    <br>
+    <textarea name="observacoes" id="obs" cols="60" rows="5"></textarea>
+    <br>
+    <br>
+    <button onclick="validar()" value="Enviar os Dados">Enviar os Dados</button>
+    <button type="reset" value="Limpar os Dados">Limpar os Dados</button>
+</form>
+</body>
+</html>

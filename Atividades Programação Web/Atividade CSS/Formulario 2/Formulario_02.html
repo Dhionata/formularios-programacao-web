@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+        <meta charset="UTF-8">
+        <title>Formulário_02</title>
+        <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+        <div id="comeco">
+                <form action="#" method="GET">
+                        <fieldset id="tudo">
+                                <fieldset id="cabeçalho">
+                                        <legend>INFORMAÇÕES PESSOAIS</legend>
+                                        <div>
+                                                <label>Nome:</label>
+                                                <input type="text" id="codName" name="codName" value="">
+                                        </div>
+                                        <div>
+                                                <label>Endereço:</label>
+                                                <input type="text" id="codEndereco" name="codEndereco" value="">
+                                        </div>
+                                        <div>
+                                                <label>Cidade:</label>
+                                                <input type="text" id="codCidade" name="codCidade" value="">
+                                        </div>
+                                        <div>
+                                                <label>...mais Informações pessoais</label>
+                                        </div>
+
+                                </fieldset>
+                                <fieldset id="principal_2">
+                                        <legend>HISTORICO MÉDICO</legend>
+
+                                        <div class="radioEquip">
+
+                                                <label for="Variola">Varíola:</label>
+                                                <input type="checkbox" name="tipoEquip" value="Variola"
+                                                        id="tipoEquip"><br>
+
+                                                <label for="Caxumba">Caxumba</label>
+                                                <input type="checkbox" name="tipoEquip" value="Caxumba" id="tipoEquip">
+                                                <br>
+
+                                                <label for="Tontura">Tontura</label>
+                                                <input type="checkbox" name="tipoEquip" value="Tontura"
+                                                        id="tipoEquip"><br>
+
+                                                <label for="Espiros:">Espiros</label>
+                                                <input type="checkbox" name="tipoEquip" value="Espiros"
+                                                        id="tipoEquip"><br>
+                                                <label for="tipoEquip">...mais detalhes do histórico médico...</label>
+                                        </div>
+
+                                </fieldset>
+                                <fieldset id="principal_2">
+                                        <legend>OPÇÕES</legend>
+
+                                        <div class="radioEquip">
+
+                                                <select id="nenhum" name="nenhum">
+                                                        <option value="nenhuns">nenhum</option>
+                                                </select>
+
+                                        </div>
+
+                                </fieldset>
+                                <fieldset id="principal_3">
+                                        <legend>MEDICAÇÃO ATUAL</legend>
+                                        <label>atualmente faz uso de algum medicamento</label>
+                                        <div class="radioEquip">
+
+                                                <label for="Variola">Sim:</label>
+                                                <input type="radio" name="tipoEquip" value="Sim" id="Sim"></br>
+
+                                                <label for="Caxumba">Não:</label>
+                                                <input type="radio" name="tipoEquip" value="Nao" id="tipoEquip"></br>
+
+
+                                                <label for="tipoEquip">...Se faz uso de algum medicamento, informe-o no
+                                                        espaço abaixo:</label><br />
+                                                <textarea name="medicamento" id="medicamento" value=" "
+                                                        rows="6"></textarea>
+                                        </div>
+
+                                </fieldset>
+                                <div class="botoes">
+                                        <div id="botao_1">
+                                                <input type="button" value="Enviar">
+                                        </div>
+                                        <div id="botao-2">
+                                                <input type="reset" value="Reset">
+                                        </div>
+
+                                </div>
+                        </fieldset>
+                </form>
+        </div>
+
+</body>
+
+</html>

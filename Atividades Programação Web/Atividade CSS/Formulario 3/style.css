@@ -1,0 +1,129 @@
+fieldset {
+    border-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+legend {
+    padding: 5px;
+    background: #ececec;
+    border-radius: 5px;
+    border: 1px solid #fff;
+}
+
+.conteudo {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #000;
+    background: #ddeeee;
+    padding: 20px;
+}
+
+.info-md {
+    position: relative;
+}
+
+.info-md::before {
+    content: "";
+    position: absolute;
+    background: url('img/img-2.png') top center;
+    width: 105px;
+    height: 129px;
+    right: 0;
+}
+
+#pessoal .esq {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+#pessoal .dir {
+    display: inline-block;
+    width: 79%;
+}
+
+#pessoal .dir input {
+    margin-bottom: 10px;
+}
+
+.info-ps {
+    position: relative;
+}
+
+.info-ps::before {
+    content: "";
+    position: absolute;
+    background: url('img/img-1.png') top center;
+    width: 117px;
+    height: 110px;
+    right: 0;
+}
+
+#principal_2 .esq {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+#principal_2 .dir {
+    display: inline-block;
+    width: 79%;
+}
+
+#principal_2 .dir input {
+    margin-bottom: 10px;
+}
+
+.info-ma {
+    position: relative;
+}
+
+.info-ma::before {
+    content: "";
+    position: absolute;
+    background: url('img/img-3.png') top center;
+    width: 97px;
+    height: 110px;
+    right: 0;
+}
+
+#principal_3 .opcoes {
+    padding: 20px 0 30px;
+}
+
+#principal_3 .esq {
+    display: inline-block;
+    width: 20%;
+    text-align: right;
+}
+
+#principal_3 .dir {
+    display: inline-block;
+    width: 79%;
+}
+
+#principal_3 textarea {
+    width: 85%;
+    height: 200px;
+}
+
+.botoes {
+    margin: 30px 0
+}
+
+.botoes .botaoesquerda {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.botoes .botaodireita {
+    width: 50%;
+    text-align: center;
+    float: right;
+    display: inline-block;
+}
+
+.botoes .botaoesquerda input, .botoes .botaodireita input {
+    width: 90%;
+}

@@ -1,0 +1,58 @@
+form {
+    margin-top: 100px;
+    max-width: 30%;
+    margin-left: 26%;
+}
+
+fieldset {
+    background-color: white;
+}
+
+label {
+    width: 10%;
+}
+
+#comeco {
+    background-image: url("Prancheta.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+}
+
+#codName {
+    margin-left: 28px;
+}
+
+#codCidade {
+    margin-left: 19px;
+}
+
+#botao_1 {
+    width: 49%;
+    width: 40%;
+    float: left;
+}
+
+#botao_2 {
+    width: 49%;
+    width: 40%;
+    float: right;
+}
+
+legend {
+    border-bottom-width: 7px;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+}
+
+input {
+    width: 30%;
+}

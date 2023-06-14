@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Modelo</title>
+</head>
+
+<body id="tudo" onclick="name()">
+    <header>
+        <h1>
+            Formulário 2
+        </h1>
+    </header>
+    <form action="#" method="GET">
+        <div id="formulário">
+            <fieldset id="tudo">
+                <fieldset id="principal_2">
+                    <legend>Banco de Dados - Cadastro de Informações</legend>
+                    <div class="campoCadastro">
+                        <label for="codCliente">Codigo do Cliente:</label>
+                        <input type="text" id="codCliente" name="codCliente" value="" required>
+                    </div><br>
+
+                    <div class="campoCadastro">
+                        <label for="valCompra">Valor da Compra (em R$):</label>
+                        <input type="number" id="valCompra" name="valCompra" value="">
+                    </div>
+
+                    <div class="radioEquip">
+                        <p><label for="tipoEquip">Tipo de Equipamento Adquirido:</label></p>
+
+                        <input type="radio" name="tipoEquip" value="Impressora" id="tipoEquip">
+                        <label for="Impressora">Impressora</label> <br>
+
+                        <input type="radio" name="tipoEquip" value="Notebook" id="tipoEquip">
+                        <label for="Notebook">Notebook</label> <br>
+
+                        <input type="radio" name="tipoEquip" value="Smartphone" id="tipoEquip">
+                        <label for="Smartphone">Smartphone</label> <br>
+                    </div>
+
+                    <div class="botaoCadastro">
+                        <input type="submit" value="Cadastrar Compra" />
+                    </div>
+                </fieldset>
+                <fieldset id="principal_3">
+                    <legend>Banco de dados - Alteração de Informações</legend>
+
+                    <div class="campoAlteracao">
+                        <label for="codClientePesquisa">Codigo do Cliente para Pesquisa:</label>
+                        <input type="text" id="codClientePesquisa" name="codClientePesquisa" value="">
+                    </div><br>
+
+                    <div class="campoAlteracao">
+                        <label for="RetValCompra">Retificação do Valor da Compra (em R$):</label>
+                        <input type="number" id="RetValCompra" name="RetValCompra" value="">
+                    </div>
+
+                    <div class="botaoAlteracao">
+                        <input type="submit" value="Alterar Valor da Compra" />
+                    </div>
+
+                </fieldset>
+            </fieldset>
+        </div>
+    </form>
+    <footer>
+        <p id="rodape">
+            &copy; Dhionatã
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
